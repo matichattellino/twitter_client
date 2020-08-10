@@ -1,0 +1,20 @@
+.producto {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.texto-descripcion {
+    flex: 0 1 600px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 2rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
